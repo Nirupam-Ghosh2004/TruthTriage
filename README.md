@@ -18,6 +18,10 @@
   <em>TruthTriage retrieves answers <strong>only from verified medical sources</strong> (WHO, CDSCO, ICMR, MoHFW) — it never guesses.</em>
 </p>
 
+<p align="center">
+  <a href="https://www.kaggle.com/code/nayan101/truthtriagee">📓 View on Kaggle</a>
+</p>
+
 ---
 
 ## 🚀 What is TruthTriage?
