@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-forensic-black text-forensic-text font-sans antialiased overflow-x-hidden min-h-screen;
+    background-color: #050505;
+  }
+}
+
+.tech-panel {
+  @apply bg-forensic-charcoal border border-white/10;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 0;
+  /* Sharp edges */
+}
+
+.tech-panel-hover {
+  @apply hover:border-forensic-emerald transition-colors duration-200;
+}
+
+.neon-glow-emerald {
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.2), inset 0 0 5px rgba(16, 185, 129, 0.1);
+}
+
+.neon-glow-violet {
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.2), inset 0 0 5px rgba(139, 92, 246, 0.1);
+}
+
+.neon-glow-crimson {
+  box-shadow: 0 0 15px rgba(244, 63, 94, 0.2), inset 0 0 5px rgba(244, 63, 94, 0.1);
+}
+
+.neon-glow-cyan {
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.2), inset 0 0 5px rgba(6, 182, 212, 0.1);
+}
+
+.text-gradient-forensic {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-forensic-emerald to-forensic-cyan;
+}
+
+.grid-background {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.terminal-text {
+  @apply font-mono text-xs tracking-wider uppercase text-forensic-emerald;
+}
+
+/* Scrollbar customization for forensic theme */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #10B981;
+}

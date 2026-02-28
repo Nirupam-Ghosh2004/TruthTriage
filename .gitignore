@@ -1,0 +1,50 @@
+# Virtual environments
+venv/
+venv_new/
+venv_py312/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+
+# Logs
+*.log
+
+# Byte-compiled
+*.pyc
+
+# FAISS index cache
+*.faiss
+*.pkl
+
+# Gemini/Agent artifacts
+.gemini/
+.agents/
